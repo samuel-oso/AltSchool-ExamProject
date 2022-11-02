@@ -40,3 +40,24 @@ button:hover {
   color: var(--body-bg);
   transition: 1s;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav p {
+  color: var(--primary100);
+  cursor: pointer;
+}
+
+.nav p:hover {
+  border-bottom: 1px solid var(--white);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}

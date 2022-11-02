@@ -1,15 +1,5 @@
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav p {
-  color: var(--primary100);
-  cursor: pointer;
-}
-
-.nav p:hover {
-  border-bottom: 1px solid var(--white);
+.counter {
+  height: 100vh;
 }
 
 .counter__card {
