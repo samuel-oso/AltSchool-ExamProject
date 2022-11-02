@@ -7,7 +7,8 @@
   height: 100px;
 }
 
-.error__card {
+.error__card,
+.error__boundary {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,13 @@
   max-width: 425px;
 }
 
-.error__card h3 {
+.error__card h3,
+.error__boundary h3 {
   color: var(--primary100);
   font-size: 15px;
+}
+
+.error__boundary p {
+  color: var(--primary100);
+  font-size: 13px;
 }

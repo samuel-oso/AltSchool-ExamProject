@@ -1,12 +1,14 @@
+import "./App.css";
 import React from "react";
 import { AllRoutes } from "./exports/Exports";
-import "./App.css";
+import { ErrorBoundary } from "react-error-boundary";
+import { ErrorFallback } from "./exports/Exports";
 
 function App() {
   return (
-    <div>
+    <ErrorBoundary FallbackComponent={ErrorFallback}>
       <AllRoutes />
-    </div>
+    </ErrorBoundary>
   );
 }
 

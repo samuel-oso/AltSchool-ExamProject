@@ -16,7 +16,7 @@ const ErrorPage = () => {
       <div className="center">
         <div className="error__card">
           <img alt="Error-Img" src={ErrorImage} />
-          <h3>Sorry! Guess you're in the wrong page.</h3>
+          <h3>SORRY! Guess you're in the wrong page.</h3>
         </div>
       </div>
     </div>
