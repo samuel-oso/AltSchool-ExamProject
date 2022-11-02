@@ -1,14 +1,18 @@
 import "./App.css";
 import React from "react";
-import { AllRoutes } from "./exports/Exports";
+import { AllRoutes, ErrorFallback } from "./exports/Exports";
 import { ErrorBoundary } from "react-error-boundary";
-import { ErrorFallback } from "./exports/Exports";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
+  const helmetContext = {};
+
   return (
-    <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <AllRoutes />
-    </ErrorBoundary>
+    <HelmetProvider context={helmetContext}>
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <AllRoutes />
+      </ErrorBoundary>
+    </HelmetProvider>
   );
 }
 
