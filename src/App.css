@@ -14,9 +14,29 @@ body {
   background-color: var(--body-bg);
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   --white: #fff;
   --black: #000;
   --body-bg: #0b0c11;
   --primary100: #67fcf1;
+}
+
+button {
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--body-bg);
+  border: 1px solid var(--primary100);
+  color: var(--white);
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--primary100);
+  border: 1px solid var(--white);
+  color: var(--body-bg);
+  transition: 1s;
 }

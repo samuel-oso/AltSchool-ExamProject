@@ -40,22 +40,6 @@
   text-align: center;
 }
 
-.home__card button {
-  font-family: "Noto Sans", sans-serif;
-  background-color: var(--body-bg);
-  border: 1px solid var(--primary100);
-  color: var(--white);
-  padding: 12px 16px;
-  cursor: pointer;
-}
-
-.home__card button:hover {
-  background-color: var(--primary100);
-  border: 1px solid var(--white);
-  color: var(--body-bg);
-  transition: 1s;
-}
-
 @media (min-width: 992px) {
   .logo {
     padding: 24px 48px;

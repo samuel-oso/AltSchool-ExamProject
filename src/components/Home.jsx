@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
 import AltSchoolLogo from "../images/AltSchoolLogo.png";
 
 const Home = () => {
@@ -17,7 +18,9 @@ const Home = () => {
             decrement, reset and setValue functions. It was implemented using
             react and useReducer hook.
           </p>
-          <button>Check it out!</button>
+          <Link to="/counter">
+            <button>Check it out!</button>
+          </Link>
         </div>
       </div>
     </div>

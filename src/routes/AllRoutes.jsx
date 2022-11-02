@@ -6,7 +6,7 @@ function AllRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<Counter />} />
+      <Route path="/counter" element={<Counter />} />
     </Routes>
   );
 }
