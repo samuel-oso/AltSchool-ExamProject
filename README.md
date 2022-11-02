@@ -5,7 +5,5 @@
 
 This project was created by Samuel Oso
 
- 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Netlify link to the project: [https://samuel-oso-counter-app.netlify.app/)
